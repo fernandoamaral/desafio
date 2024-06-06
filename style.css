@@ -1,0 +1,11 @@
+*{margin:0;padding:0;box-sizing: border-box}
+body{font-family: Helvetica, Arial, sans-serif;color:#333}
+form{background-color:#ECECEC;padding:32px}
+label{display: block;margin-bottom:4px}
+input{width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;}
+textarea{width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;}
+button{width:100%;color:#fff;background-color:#DB1B1B;border:none;padding:8px;border-radius:4px;cursor: pointer;}
+.mt-3{margin-top:12px}
+.text-white{color:#fff}
+.container{max-width:600px;margin:0 auto;margin-top:200px}
+.fundo{background-color:#121214;position: absolute;top: 0;left:0;right:0;width: 100%;height:368px;z-index:-1}

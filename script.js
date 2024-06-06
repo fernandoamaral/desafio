@@ -2,13 +2,13 @@ document.getElementById('form').addEventListener('submit', function (event) {
   event.preventDefault();
   let obj = {
     names: [],
-    message: document.getElementById('message')
+    message: document.getElementById('message').value
   }
-  obj.names.push(document.getElementById('nome1'));
-  obj.names.push(document.getElementById('nome2'));
-  obj.names.push(document.getElementById('nome3'));
-  obj.names.push(document.getElementById('nome4'));
-  obj.names.push(document.getElementById('nome5'));
+  obj.names.push(document.getElementById('nome1').value);
+  obj.names.push(document.getElementById('nome2').value);
+  obj.names.push(document.getElementById('nome3').value);
+  obj.names.push(document.getElementById('nome4').value);
+  obj.names.push(document.getElementById('nome5').value);
 
   console.log(obj);
 

@@ -4,11 +4,11 @@ document.getElementById('form').addEventListener('submit', function (event) {
     names: [],
     message: document.getElementById('message')
   }
-  obj.names.push(document.getElementById('name1'));
-  obj.names.push(document.getElementById('name2'));
-  obj.names.push(document.getElementById('name3'));
-  obj.names.push(document.getElementById('name4'));
-  obj.names.push(document.getElementById('name5'));
+  obj.names.push(document.getElementById('nome1'));
+  obj.names.push(document.getElementById('nome2'));
+  obj.names.push(document.getElementById('nome3'));
+  obj.names.push(document.getElementById('nome4'));
+  obj.names.push(document.getElementById('nome5'));
 
   console.log(obj);
 
